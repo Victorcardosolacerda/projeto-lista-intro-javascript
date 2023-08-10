@@ -109,15 +109,21 @@ function retornaUltimoElemento(array) {
 
 }
 retornaUltimoElemento("ola", "abc")
+
 // EXERCÍCIO 11
+
 function trocaPrimeiroEUltimo(array) {
-  // implemente sua lógica aqui
+  const primeiroElemento = array[0]
+  array[0] = array[array.length - 1]
+  array[array.length - 1] = primeiroElemento
+  return array
 
 }
+trocaPrimeiroEUltimo("ola", "abc")
+
 
 // EXERCÍCIO 12
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
-  // implemente sua lógica aqui
 
 }
 
