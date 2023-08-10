@@ -1,46 +1,61 @@
 // EXEMPLOS DE IMPLEMENTAÇÃO ---------------------------------------------------------------
 
 // EXERCÍCIO 0A
+let num1 = 2
+let num2 = 5
 function soma(num1, num2) {
-  // implemente sua lógica aqui
+  
   return num1 + num2
 }
 
 // EXERCÍCIO 0B
 function imprimeMensagem() {
   // implemente sua lógica aqui
-  const mensagem = prompt('Digite uma mensagem!')
+  const mensagem = prompt('Sejam bem vindos!')
 
   console.log(mensagem)
 }
-
+imprimeMensagem('Sejam bem vindos!')
 // EXERCÍCIOS PARA FAZER ------------------------------------------------------------------
 
 // EXERCÍCIO 01
-function calculaAreaRetangulo() {
-  // implemente sua lógica aqui
 
+function calculaAreaRetangulo(altura, largura) {
+  altura = prompt("Qual a altura do retangulo?")
+  largura = prompt("Qual a largura do retangulo?")
+  let area = altura * largura
+  console.log (area)
 }
+calculaAreaRetangulo(3, 5)
 
 // EXERCÍCIO 02
-function imprimeIdade() {
-  // implemente sua lógica aqui
+function imprimeIdade(anoAtual, anoDeNascimento) {
+  anoAtual = prompt("Qual o ano atual?")
+  anoDeNascimento = prompt ("Qual a sua data de nascimento?")
+  const idade = anoAtual - anoDeNascimento
+  console.log(idade)
 
 }
+imprimeIdade()
 
 // EXERCÍCIO 03
 function calculaIMC(peso, altura) {
-  // implemente sua lógica aqui
+  peso = prompt("Qual seu peso?")
+  altura = prompt("Qual sua altura?")
+  return peso/(altura*altura)
 
 }
+calculaIMC()
 
 // EXERCÍCIO 04
-function imprimeInformacoesUsuario() {
-  // implemente sua lógica aqui
-  // "Meu nome é NOME, tenho IDADE anos, e o meu email é EMAIL."
+function imprimeInformacoesUsuario(nome, idade, email) {
+  nome = prompt("Como você se chama?")
+  idade = prompt("Qual sua idade?")
+  email = prompt("Qual seu e-mail?")
+  console.log("meu nome é,",nome,"tenho",idade,"anos, e o meu e-mail é",email)
 
 }
-
+imprimeInformacoesUsuario()
 // EXERCÍCIO 05
 function imprimeTresCoresFavoritas() {
   // implemente sua lógica aqui
