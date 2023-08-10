@@ -32,7 +32,7 @@ calculaAreaRetangulo(3, 5)
 function imprimeIdade(anoAtual, anoDeNascimento) {
   anoAtual = prompt("Qual o ano atual?")
   anoDeNascimento = prompt ("Qual a sua data de nascimento?")
-  const idade = anoAtual - anoDeNascimento
+  let idade = anoAtual - anoDeNascimento
   console.log(idade)
 
 }
@@ -48,26 +48,32 @@ function calculaIMC(peso, altura) {
 calculaIMC()
 
 // EXERCÍCIO 04
-function imprimeInformacoesUsuario(nome, idade, email) {
-  nome = prompt("Como você se chama?")
-  idade = prompt("Qual sua idade?")
-  email = prompt("Qual seu e-mail?")
-  console.log("meu nome é,",nome,"tenho",idade,"anos, e o meu e-mail é",email)
+//function imprimeInformacoesUsuario(nome, idade, email) {
+  //nome = prompt("Como você se chama?")
+  //idade = prompt("Qual sua idade?")
+  //email = prompt("Qual seu e-mail?")
+  //console.log("Meu nome é",{nome},",tenho",{idade},"anos, e o meu e-mail é,",{email})
 
-}
-imprimeInformacoesUsuario()
+//}
+//imprimeInformacoesUsuario()
+
 // EXERCÍCIO 05
-function imprimeTresCoresFavoritas() {
-  // implemente sua lógica aqui
-
-}
+// function imprimeTresCoresFavoritas(cor1, cor2, cor3) {
+//   cor1 = prompt("Qual a sua cor favorita?")
+//   cor2 = prompt("Qual sua segunda cor favorita?")
+//   cor3 = prompt("Qual sua terceira cor favorita?")
+//  console.log()
+// }
+// imprimeTresCoresFavoritas()
 
 // EXERCÍCIO 06
 function retornaStringEmMaiuscula(string) {
-  // implemente sua lógica aqui
+  string = prompt("Digite uma frase")
+  const fraseMaiuscula = string.toUpperCase()
+  return fraseMaiuscula
 
 }
-
+retornaStringEmMaiuscula()
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
   // implemente sua lógica aqui
