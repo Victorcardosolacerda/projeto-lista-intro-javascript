@@ -121,10 +121,10 @@ function trocaPrimeiroEUltimo(array) {
 }
 trocaPrimeiroEUltimo("ola", "abc")
 
-
 // EXERCÍCIO 12
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
-
+  return string1.toLowerCase() === string2.toLowerCase()
+  
 }
 
 // EXERCÍCIO 13
