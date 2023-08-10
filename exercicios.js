@@ -124,21 +124,41 @@ trocaPrimeiroEUltimo("ola", "abc")
 // EXERCÍCIO 12
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
   return string1.toLowerCase() === string2.toLowerCase()
-  
+
 }
 
 // EXERCÍCIO 13
-function checaRenovacaoRG() {
-  // implemente sua lógica aqui
+// function checaRenovacaoRG() {
+//   anoAtual = prompt("Qual o ano atual que estamos?")
+//   dataDeNascimento = prompt("Qual sua data de nascimento?")
+//   emissaoRG = prompt("Qual ano sua carteira de identidade foi emitida?")
+//   let idade = anoAtual - dataDeNascimento
+//   let anoRG = anoAtual - emissaoRG
 
-}
+// if (idade <= 20 && anoRG >= 5){
+//     console.log(true)
+//   }else if (idade >= 21 || idade < 50 && anoRG >= 10){
+//     console.log(true)
+//   }else if (idade > 50 && anoRG >= 15){
+//     console.log(true)
+//   }else {
+//     console.log(false)
+//   }
 
+// }
+// checaRenovacaoRG()
+ 
 // EXERCÍCIO 14
-function checaAnoBissexto(ano) {
-  // implemente sua lógica aqui
-
+function checaAnoBissexto(ano){
+  if (ano % 400 == 0) {
+    return true
+  } else if (ano % 4 == 0 && ano % 100 != 0) {
+    return true
+  } else {
+    return false
+  }
 }
-
+checaAnoBissexto()
 // EXERCÍCIO 15
 function checaValidadeInscricaoLabenu() {
   // implemente sua lógica aqui
