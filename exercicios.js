@@ -85,19 +85,21 @@
 // }
 // calculaIngressosEspetaculo()
 // EXERCÍCIO 08
-function checaStringsMesmoTamanho(string1, string2) {
-  string1 = prompt("Digite sua primeira string")
-  string2 = prompt("Digite sua segunda string")
-  return string1.length === string2.length
+// function checaStringsMesmoTamanho(string1, string2) {
+//   string1 = prompt("Digite sua primeira string")
+//   string2 = prompt("Digite sua segunda string")
+//   return string1.length === string2.length
 
-}
-checaStringsMesmoTamanho()
+// }
+// checaStringsMesmoTamanho()
+
 // EXERCÍCIO 09
 function retornaPrimeiroElemento(array) {
-  // implemente sua lógica aqui
+  array 
+  return array[0]
 
 }
-
+retornaPrimeiroElemento("abc","ola")
 // EXERCÍCIO 10
 function retornaUltimoElemento(array) {
   // implemente sua lógica aqui
