@@ -76,20 +76,22 @@
 // retornaStringEmMaiuscula()
 
 // EXERCÍCIO 07
-function calculaIngressosEspetaculo(custo, valorIngresso) {
-  custo = prompt("Qual valor das despesas gastas?")
-  valorIngresso = prompt("Qual valor será vendido os ingressos?")
-  let necessarioVender = custo/valorIngresso
-  return necessarioVender
+// function calculaIngressosEspetaculo(custo, valorIngresso) {
+//   custo = prompt("Qual valor das despesas gastas?")
+//   valorIngresso = prompt("Qual valor será vendido os ingressos?")
+//   let necessarioVender = custo/valorIngresso
+//   return necessarioVender
 
-}
-calculaIngressosEspetaculo()
+// }
+// calculaIngressosEspetaculo()
 // EXERCÍCIO 08
 function checaStringsMesmoTamanho(string1, string2) {
-  // implemente sua lógica aqui
+  string1 = prompt("Digite sua primeira string")
+  string2 = prompt("Digite sua segunda string")
+  return string1.length === string2.length
 
 }
-
+checaStringsMesmoTamanho()
 // EXERCÍCIO 09
 function retornaPrimeiroElemento(array) {
   // implemente sua lógica aqui
