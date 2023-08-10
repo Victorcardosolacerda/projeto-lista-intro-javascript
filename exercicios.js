@@ -100,12 +100,15 @@ function retornaPrimeiroElemento(array) {
 
 }
 retornaPrimeiroElemento("abc","ola")
+
 // EXERCÍCIO 10
 function retornaUltimoElemento(array) {
-  // implemente sua lógica aqui
+  array
+  ultimo = array[array.length - 1]
+  return ultimo
 
 }
-
+retornaUltimoElemento("ola", "abc")
 // EXERCÍCIO 11
 function trocaPrimeiroEUltimo(array) {
   // implemente sua lógica aqui
